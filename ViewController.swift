@@ -11,6 +11,12 @@ import TinyConstraints
 
 class ViewController: UIViewController {
 
+    
+    lazy var lineChartView: LineChartView = {
+        let chartView = LineChartView()
+        return chartView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
