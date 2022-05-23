@@ -1,0 +1,6 @@
+framework module Pods_BarChart_UIKit {
+  umbrella header "Pods-BarChart-UIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
